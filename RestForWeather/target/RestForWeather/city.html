@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+<form method="post" action="/weather/current">
+    Choose city for check weather:
+    <select name="city">
+        <option value="Moscow">Moscow</option>
+        <option value="Saint-Petersburg">Saint-Petersburg</option>
+        <option value="Dubai">Dubai</option>
+        <option value="New-York">New-York</option>
+        <option value="Baku">Baku</option>
+    </select>
+    <p><input type="submit" value="check!"></p>
+</form>
+<form method="get" action="/weather/analysis">
+    You can look weather analysis:
+    <input type="submit" value="look!">
+</form>
+
+<a href="/LogoutServlet">Logout </a> |
+
+
+</body>
+</html>
